@@ -17,8 +17,8 @@
 **********************/
 
 
-$sans: 'suissesans', sans-serif;
-$serif: 'suisseserif', serif;
+$sans: 'BrownPro', sans-serif;
+$serif: 'Pitch', monospace;
 $base-font-family: $sans;
 $heading-font-family: $base-font-family;
 
@@ -37,23 +37,23 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$beckley-blue: #2C345E;
+$springbone-teal: #094C55;
 $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
 
 // Font Colors
-$base-background-color: #fff;
-$base-font-color: $beckley-blue;
-$action-color: $beckley-blue;
+$base-background-color: #C0DAD7;
+$base-font-color: $springbone-teal;
+$action-color: $springbone-teal;
 
 // Border
-$base-border-color: $beckley-blue;
+$base-border-color: $springbone-teal;
 $base-border: 1px solid $base-border-color;
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba($beckley-blue, 0);
+$form-box-shadow: inset 0 1px 3px rgba($springbone-teal, 0);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
 
 
@@ -182,7 +182,7 @@ label {
 #{$all-text-inputs},
 select[multiple=multiple],
 textarea {
-  background-color: $base-background-color;
+  background-color: white;
   border: $base-border;
   border-radius: 0; // $base-border-radius;
   box-shadow: $form-box-shadow;
@@ -316,6 +316,7 @@ body {
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
+  background: $base-background-color;
 }
 
 h1,
@@ -352,7 +353,7 @@ figcaption {
   font-weight: bold !important;
   font-size: 30px !important;
   line-height: 1.2 !important;
-  color: $beckley-blue !important;
+  color: $springbone-teal !important;
   text-shadow: none !important;
 }
 

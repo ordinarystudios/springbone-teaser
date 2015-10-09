@@ -15,48 +15,6 @@
 /**********************
 #Variables
 **********************/
-@font-face {
-  font-family: 'suissesans';
-  src: url("../fonts/suissebpintl-bold-webfont.eot");
-  src: url("../fonts/suissebpintl-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suissebpintl-bold-webfont.woff2") format("woff2"), url("../fonts/suissebpintl-bold-webfont.woff") format("woff"), url("../fonts/suissebpintl-bold-webfont.ttf") format("truetype"), url("../fonts/suissebpintl-bold-webfont.svg#suisse_bp_intl_boldbold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'suissesans';
-  src: url("../fonts/suissebpintl-regular-webfont.eot");
-  src: url("../fonts/suissebpintl-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suissebpintl-regular-webfont.woff2") format("woff2"), url("../fonts/suissebpintl-regular-webfont.woff") format("woff"), url("../fonts/suissebpintl-regular-webfont.ttf") format("truetype"), url("../fonts/suissebpintl-regular-webfont.svg#suisse_bp_intl_regularregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'suissesans';
-  src: url("../fonts/suissebpintl-light-webfont.eot");
-  src: url("../fonts/suissebpintl-light-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suissebpintl-light-webfont.woff2") format("woff2"), url("../fonts/suissebpintl-light-webfont.woff") format("woff"), url("../fonts/suissebpintl-light-webfont.ttf") format("truetype"), url("../fonts/suissebpintl-light-webfont.svg#suisse_bp_intl_lightlight") format("svg");
-  font-weight: lighter;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'suisseserif';
-  src: url("../fonts/suisseworks-bold-webfont.eot");
-  src: url("../fonts/suisseworks-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suisseworks-bold-webfont.woff2") format("woff2"), url("../fonts/suisseworks-bold-webfont.woff") format("woff"), url("../fonts/suisseworks-bold-webfont.ttf") format("truetype"), url("../fonts/suisseworks-bold-webfont.svg#suisse_worksbold") format("svg");
-  font-weight: bold;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'suisseserif';
-  src: url("../fonts/suisseworks-book-webfont.eot");
-  src: url("../fonts/suisseworks-book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suisseworks-book-webfont.woff2") format("woff2"), url("../fonts/suisseworks-book-webfont.woff") format("woff"), url("../fonts/suisseworks-book-webfont.ttf") format("truetype"), url("../fonts/suisseworks-book-webfont.svg#suisse_worksbook") format("svg");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'suisseserif';
-  src: url("../fonts/suisseworks-bookitalic-webfont.eot");
-  src: url("../fonts/suisseworks-bookitalic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/suisseworks-bookitalic-webfont.woff2") format("woff2"), url("../fonts/suisseworks-bookitalic-webfont.woff") format("woff"), url("../fonts/suisseworks-bookitalic-webfont.ttf") format("truetype"), url("../fonts/suisseworks-bookitalic-webfont.svg#suisse_worksbook_italic") format("svg");
-  font-weight: normal;
-  font-style: italic; }
-
 /**********************
 #Sass Mixins
 **********************/
@@ -1208,10 +1166,10 @@ em {
   text-align: center; }
 
 .sans {
-  font-family: "suissesans", sans-serif; }
+  font-family: "BrownPro", sans-serif; }
 
 .serif {
-  font-family: "suisseserif", serif; }
+  font-family: "Pitch", monospace; }
 
 /**********************
 #Basic Styles
@@ -1224,13 +1182,13 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #2C345E;
+  background-color: #094C55;
   border-radius: 0px;
   border: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "suissesans", sans-serif;
+  font-family: "BrownPro", sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 1;
@@ -1249,7 +1207,7 @@ button {
   input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #14172a;
+    background-color: #020e10;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled {
@@ -1257,7 +1215,7 @@ button {
     opacity: 0.5; }
 
 fieldset {
-  background-color: #3c4781;
+  background-color: #0e7583;
   border: none;
   margin: 0 0 0.75em;
   padding: 1.5em; }
@@ -1266,7 +1224,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "suissesans", sans-serif;
+  font-family: "BrownPro", sans-serif;
   font-size: 13px; }
 
 label {
@@ -1281,12 +1239,12 @@ label {
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
 select[multiple=multiple],
 textarea {
-  background-color: #fff;
-  border: 1px solid #2C345E;
+  background-color: white;
+  border: 1px solid #094C55;
   border-radius: 0;
-  box-shadow: inset 0 1px 3px rgba(44, 52, 94, 0);
+  box-shadow: inset 0 1px 3px rgba(9, 76, 85, 0);
   box-sizing: border-box;
-  font-family: "suissesans", sans-serif;
+  font-family: "BrownPro", sans-serif;
   font-size: 13px;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -1296,13 +1254,13 @@ textarea {
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover,
   textarea:hover {
-    border-color: #1c213b; }
+    border-color: #042327; }
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border: 1px solid #2C345E;
+    border: 1px solid #094C55;
     padding-left: 10px;
-    box-shadow: inset 0 1px 3px rgba(44, 52, 94, 0), 0 0 5px rgba(36, 42, 77, 0.7);
+    box-shadow: inset 0 1px 3px rgba(9, 76, 85, 0), 0 0 5px rgba(7, 55, 62, 0.7);
     outline: none;
     background: white; }
 
@@ -1355,13 +1313,13 @@ table {
   width: 100%; }
 
 th {
-  border-bottom: 1px solid #14172a;
+  border-bottom: 1px solid #020e10;
   font-weight: 600;
   padding: 0.75em 0;
   text-align: left; }
 
 td {
-  border-bottom: 1px solid #2C345E;
+  border-bottom: 1px solid #094C55;
   padding: 0.75em 0; }
 
 tr,
@@ -1383,10 +1341,11 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #2C345E;
-  font-family: "suissesans", sans-serif;
+  color: #094C55;
+  font-family: "BrownPro", sans-serif;
   font-size: 13px;
-  line-height: 1.5; }
+  line-height: 1.5;
+  background: #C0DAD7; }
 
 h1,
 h2,
@@ -1394,51 +1353,51 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "suissesans", sans-serif;
+  font-family: "BrownPro", sans-serif;
   font-size: 13px;
   line-height: 1.2;
   margin: 0 0 0.75em; }
 
 h2 {
-  font-family: "suisseserif", serif;
+  font-family: "Pitch", monospace;
   font-weight: bold;
   font-size: 30px;
   line-height: 1.2;
   padding: 30px 0; }
 
 h3 {
-  font-family: "suisseserif", serif; }
+  font-family: "Pitch", monospace; }
 
 figcaption {
-  font-family: "suisseserif", serif !important;
+  font-family: "Pitch", monospace !important;
   font-weight: bold !important;
   font-size: 30px !important;
   line-height: 1.2 !important;
-  color: #2C345E !important;
+  color: #094C55 !important;
   text-shadow: none !important; }
 
 h5 {
-  font-family: "suissesans", sans-serif;
+  font-family: "BrownPro", sans-serif;
   font-weight: bold; }
 
 p {
   margin: 0 0 0.75em; }
 
 a {
-  color: #2C345E;
+  color: #094C55;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
           transition: color 0.1s linear; }
   a:active,
   a:focus,
   a:hover {
-    color: #14172a; }
+    color: #020e10; }
   a:active,
   a:focus {
     outline: none; }
 
 hr {
-  border-bottom: 1px solid #2C345E;
+  border-bottom: 1px solid #094C55;
   border-left: none;
   border-right: none;
   border-top: none;
@@ -1450,358 +1409,7 @@ picture {
   max-width: 100%; }
 
 address {
-  font-family: "suissesans", sans-serif;
+  font-family: "BrownPro", sans-serif;
   font-weight: normal;
   line-height: 2; }
-
-/**********************
-#Header
-**********************/
-.brand {
-  color: transparent;
-  background: url("../images/beckley-logo.svg") left center no-repeat;
-  width: 100px;
-  height: 19px;
-  display: inline-block;
-  overflow: visible;
-  background-size: 100px auto; }
-  .brand:hover {
-    color: transparent;
-    text-decoration: none; }
-
-header, .header {
-  position: fixed;
-  padding: 30px 0;
-  width: 100%;
-  margin: 0 auto;
-  z-index: 1000; }
-  @media screen and (max-width: 480px) {
-    header, .header {
-      background: rgba(255, 255, 255, 0.6); } }
-
-.primary-nav {
-  padding-right: 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  float: right; }
-  @media screen and (max-width: 480px) {
-    .primary-nav {
-      padding-left: 0;
-      margin-top: 15px; } }
-
-.nav__link {
-  font-family: "suissesans", sans-serif;
-  font-weight: lighter;
-  padding: 20px 0; }
-
-/**********************
-#Homepage
-**********************/
-.hero {
-  width: 100%;
-  height: 100vh;
-  overflow: hidden; }
-  @media screen and (max-width: 480px) {
-    .hero {
-      padding-top: 113px; } }
-
-.hero__background {
-  width: 100%;
-  height: 100vh;
-  background: url("../images/hero.jpg");
-  display: block;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; }
-
-.brand-summary {
-  padding: 130px 0 150px; }
-
-.pull-quote {
-  font-family: "suisseserif", serif;
-  font-weight: bold;
-  font-size: 1.875em;
-  line-height: 1.4;
-  max-width: 770px;
-  margin: 0 auto; }
-  .pull-quote.motto {
-    margin-bottom: 2em;
-    font-size: 1.5em;
-    font-weight: lighter;
-    font-family: "suissesans", sans-serif; }
-
-.author {
-  font-family: "suisseserif", serif;
-  font-style: italic;
-  font-size: 1em;
-  margin-top: 2em; }
-
-/**********************
-#Collections
-**********************/
-#masonry[data-columns]::before {
-  content: '2 .column.size-1of2';
-  text-indent: -9999px;
-  color: white; }
-
-.column {
-  float: left; }
-
-.size-1of2 {
-  width: 50%;
-  padding: 0 15px; }
-  .size-1of2:first-child {
-    padding-left: 0; }
-  .size-1of2:last-child {
-    padding-right: 0; }
-
-.collection {
-  overflow: auto; }
-
-.collection-description {
-  font-family: "suisseserif", serif; }
-  .collection-description h3 {
-    font-weight: bold; }
-
-.collection-imagery {
-  float: right;
-  width: 100%; }
-  @media screen and (min-width: 480px) {
-    .collection-imagery {
-      margin-top: 111px; } }
-  .collection-imagery .grid {
-    padding-right: 0;
-    padding-left: 0; }
-  .collection-imagery__image {
-    padding-bottom: 30px; }
-    .collection-imagery__image img {
-      display: block; }
-      .collection-imagery__image img:hover {
-        cursor: url("../images/cursor-open.png") 11 11, auto;
-        cursor: url("../images/cursor-open.svg") 11 11, auto; }
-  @media screen and (min-width: 760px) {
-    .collection-imagery {
-      width: 66.666%; } }
-
-.collection-copy {
-  width: 100%; }
-  @media screen and (max-width: 759px) {
-    .collection-copy {
-      max-width: 440px;
-      margin: 120px auto 60px; } }
-  @media screen and (min-width: 760px) {
-    .collection-copy {
-      width: 33.333%;
-      max-width: 440px;
-      min-height: 100vh;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: start;
-      -webkit-align-items: flex-start;
-          -ms-flex-align: start;
-              align-items: flex-start;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-              justify-content: space-between;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-          -ms-flex-direction: column;
-              flex-direction: column;
-      float: left; } }
-
-@media screen and (min-width: 480px) {
-  .collection-copy-fixed {
-    position: fixed;
-    padding-right: 60px;
-    z-index: 100; } }
-
-.collection-spacer {
-  text-indent: -9999px; }
-
-.collection-nav {
-  padding-top: 15px;
-  padding-bottom: 30px; }
-  .collection-nav a {
-    padding-top: 15px;
-    padding-bottom: 30px; }
-
-/**********************
-#Our Story
-**********************/
-.our-story {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  min-height: 90vh;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  @media screen and (max-width: 768px) {
-    .our-story {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: reverse;
-      -webkit-flex-direction: column-reverse;
-          -ms-flex-direction: column-reverse;
-              flex-direction: column-reverse; }
-      .our-story .grid__item {
-        padding: 15px; } }
-
-.timeline {
-  overflow: auto; }
-
-.size-1of1 {
-  width: 100%; }
-
-.column {
-  float: left; }
-
-.size-1of4 {
-  width: 25%;
-  padding: 0 15px; }
-
-.timeline__item {
-  padding-bottom: 60px; }
-  .timeline__item img {
-    padding-bottom: 15px; }
-
-.our-history {
-  overflow: auto;
-  margin: 0 auto; }
-
-/**********************
-#Press
-**********************/
-.press, .celebrity {
-  padding-top: 120px; }
-  .press-item, .celebrity-item {
-    padding-bottom: 30px; }
-    .press-item__image, .celebrity-item__image {
-      padding-bottom: 15px; }
-    .press-item__caption h4, .celebrity-item__caption h4 {
-      line-height: 2; }
-
-.press-item--more {
-  display: none; }
-
-.press-item__image img:first-child {
-  display: block; }
-
-.press-item__image img:last-child {
-  display: none; }
-
-.press-item__image:hover img:first-child {
-  display: none; }
-
-.press-item__image:hover img:last-child {
-  display: block; }
-
-.celebrity {
-  padding-top: 60px;
-  padding-bottom: 120px; }
-
-.celebrity-item--more {
-  display: none; }
-
-/**********************
-#Stockists
-**********************/
-.stockists-header {
-  padding-top: 120px; }
-
-.stockists {
-  padding-bottom: 120px; }
-
-.stockist {
-  padding-bottom: 45px; }
-  .stockist img {
-    padding-bottom: 15px; }
-  .stockist__caption h4 {
-    line-height: 2; }
-
-/**********************
-#Contact
-**********************/
-.contact {
-  padding-top: 120px;
-  padding-bottom: 90px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  max-width: 700px; }
-  @media screen and (max-width: 480px) {
-    .contact {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-          -ms-flex-direction: column;
-              flex-direction: column; } }
-  .contact .hide {
-    visibility: hidden; }
-
-input.bottom-line-only {
-  border: none;
-  border-bottom: solid 1px #2C345E;
-  background: none;
-  padding-left: 0; }
-
-/**********************
-#Footer
-**********************/
-footer, .footer {
-  background: #F2F4F3;
-  padding: 60px 0;
-  float: left;
-  width: 100%; }
-  footer address, .footer address {
-    line-height: 1.5; }
-  footer .legal, .footer .legal {
-    margin-top: 2em; }
-    footer .legal a, .footer .legal a {
-      text-decoration: underline; }
-
-#instafeed {
-  float: left;
-  display: block; }
-  #instafeed a {
-    width: calc(100%/3);
-    display: block;
-    float: left;
-    box-sizing: border-box; }
-  #instafeed img {
-    float: left; }
-  @media screen and (min-width: 768px) {
-    #instafeed a {
-      width: calc(100%/6 - 25px);
-      display: block;
-      float: left;
-      margin: 0 15px;
-      box-sizing: border-box; }
-      #instafeed a:first-child {
-        margin-left: 0; }
-      #instafeed a:last-child {
-        margin-right: 0; } }
 /*# sourceMappingURL=main.css.map */
