@@ -1166,7 +1166,7 @@ em {
   text-align: center; }
 
 .sans {
-  font-family: "BrownPro", sans-serif; }
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif; }
 
 .serif {
   font-family: "Pitch", monospace; }
@@ -1188,7 +1188,7 @@ button {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px;
   font-weight: 600;
   line-height: 1;
@@ -1224,7 +1224,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px; }
 
 label {
@@ -1244,7 +1244,7 @@ textarea {
   border-radius: 3px;
   box-shadow: inset 0 1px 3px rgba(9, 76, 85, 0);
   box-sizing: border-box;
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -1342,7 +1342,7 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
   color: #094C55;
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.5;
   background-color: #C0DAD7;
@@ -1357,7 +1357,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.2;
   margin: 0 0 0.75em; }
@@ -1381,7 +1381,7 @@ figcaption {
   text-shadow: none !important; }
 
 h5 {
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-weight: bold; }
 
 p {
@@ -1413,7 +1413,7 @@ picture {
   max-width: 100%; }
 
 address {
-  font-family: "BrownPro", sans-serif;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-weight: normal;
   line-height: 2; }
 
@@ -1574,7 +1574,8 @@ section {
       line-height: 21px; } }
 
 p.lead {
-  font-family: BrownPro-Bold;
+  font-family: "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
+  font-weight: bold;
   font-size: 48px;
   line-height: 72px;
   -webkit-transition: font-size 0.5s ease;

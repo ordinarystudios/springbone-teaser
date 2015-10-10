@@ -17,7 +17,7 @@
 **********************/
 
 
-$sans: 'BrownPro', sans-serif;
+$sans: 'BrownPro', 'Brown', Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
 $serif: 'Pitch', monospace;
 $base-font-family: $sans;
 $heading-font-family: $base-font-family;
@@ -538,7 +538,8 @@ section {
 }
 
 p.lead {
-  font-family: BrownPro-Bold;
+  font-family: $sans;
+  font-weight: bold;
   font-size: 48px;
   line-height: 72px;
 
