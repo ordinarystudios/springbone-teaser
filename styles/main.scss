@@ -471,14 +471,14 @@ header {
   background-image: url('../images/springbone-logo.svg');
 }
 
-.email-capture {
+.email-capture, .mc-field-group {
 
   display: flex;
 
   padding-top: 30px;
   padding-bottom: 30px;
 
-  input, button {
+  input, button, .button {
     height: 44px;
     font-size: 20px;
     line-height: 24px;
@@ -505,7 +505,7 @@ header {
     }
   }
 
-  button {
+  button, .button {
     width: 5em;;
     border-radius: 0px $base-border-radius $base-border-radius 0px;
     transition: all 0.3s ease;
