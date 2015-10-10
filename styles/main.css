@@ -1505,8 +1505,8 @@ header {
   display: inline-block;
   width: 161px;
   height: 60px;
-  background-image: url("/images/springbone-logo.png");
-  background-image: url("/images/springbone-logo.svg"); }
+  background-image: url("../images/springbone-logo.png");
+  background-image: url("../images/springbone-logo.svg"); }
 
 .email-capture {
   display: -webkit-box;
