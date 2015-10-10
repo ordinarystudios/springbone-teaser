@@ -1346,8 +1346,8 @@ body {
   font-size: 13px;
   line-height: 1.5;
   background-color: #C0DAD7;
-  background-image: url("/images/background-illustration.png");
-  background-image: url("/images/background-illustration.svg");
+  background-image: url("../images/background-illustration.png");
+  background-image: url("../images/background-illustration.svg");
   background-position: center center;
   background-repeat: no-repeat; }
 
