@@ -1217,7 +1217,7 @@ button {
 fieldset {
   background-color: #0e7583;
   border: none;
-  margin: 0 0 0.75em;
+  margin: 0 0 0.5em;
   padding: 1.5em; }
 
 input,
@@ -1230,7 +1230,7 @@ select {
 label {
   margin-top: 1em;
   font-weight: 600;
-  margin-bottom: 0.375em; }
+  margin-bottom: 0.25em; }
   label.required::after {
     content: "*"; }
   label abbr {
@@ -1277,10 +1277,10 @@ input[type="search"] {
 input[type="checkbox"],
 input[type="radio"] {
   display: inline;
-  margin-right: 0.375em; }
+  margin-right: 0.25em; }
 
 input[type="file"] {
-  padding-bottom: 0.75em;
+  padding-bottom: 0.5em;
   width: 100%; }
 
 select {
@@ -1295,32 +1295,31 @@ ol {
   padding: 0; }
 
 dl {
-  margin-bottom: 0.75em; }
+  margin-bottom: 0.5em; }
   dl dt {
     font-weight: bold;
-    margin-top: 0.75em; }
+    margin-top: 0.5em; }
   dl dd {
     margin: 0; }
 
 table {
   -webkit-font-feature-settings: "kern", "liga", "tnum";
-  -moz-font-feature-settings: "kern", "liga", "tnum";
   -ms-font-feature-settings: "kern", "liga", "tnum";
   font-feature-settings: "kern", "liga", "tnum";
   border-collapse: collapse;
-  margin: 0.75em 0;
+  margin: 0.5em 0;
   table-layout: fixed;
   width: 100%; }
 
 th {
   border-bottom: 1px solid #020e10;
   font-weight: 600;
-  padding: 0.75em 0;
+  padding: 0.5em 0;
   text-align: left; }
 
 td {
   border-bottom: 1px solid #094C55;
-  padding: 0.75em 0; }
+  padding: 0.5em 0; }
 
 tr,
 td,
@@ -1336,7 +1335,6 @@ th {
 **********************/
 body {
   -webkit-font-feature-settings: "kern", "liga", "pnum";
-  -moz-font-feature-settings: "kern", "liga", "pnum";
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
@@ -1360,7 +1358,7 @@ h6 {
   font-family: "Springbone Sans", "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.2;
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.5em; }
 
 h2 {
   font-family: "Springbone Mono", "Pitch", monospace;
@@ -1385,7 +1383,7 @@ h5 {
   font-weight: bold; }
 
 p {
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.5em; }
 
 a {
   color: #094C55;
