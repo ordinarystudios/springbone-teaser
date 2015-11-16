@@ -1579,33 +1579,33 @@ p.lead {
   font-family: "Springbone Sans", "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-weight: bold;
   font-size: 48px;
-  line-height: 72px;
+  line-height: 1.2;
   -webkit-transition: font-size 0.5s ease;
           transition: font-size 0.5s ease; }
   @media screen and (max-width: 800px) {
     p.lead {
       font-size: 40px;
-      line-height: 60px; } }
+      line-height: 1.2; } }
   @media screen and (max-width: 700px) {
     p.lead {
       font-size: 32px;
-      line-height: 48px; } }
+      line-height: 1.2; } }
   @media screen and (max-width: 600px) {
     p.lead {
       font-size: 28px;
-      line-height: 42px; } }
+      line-height: 1.2; } }
   @media screen and (max-width: 500px) {
     p.lead {
       font-size: 24px;
-      line-height: 36px; } }
+      line-height: 1.2; } }
   @media screen and (max-width: 415px) {
     p.lead {
       font-size: 20px;
-      line-height: 30px; } }
+      line-height: 1.2; } }
   @media screen and (max-width: 374px) {
     p.lead {
       font-size: 16px;
-      line-height: 24px; } }
+      line-height: 1.2; } }
 
 p {
   font-size: 16px;
