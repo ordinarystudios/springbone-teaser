@@ -1622,10 +1622,11 @@ footer {
       -ms-flex-pack: center;
           justify-content: center; }
   footer address, footer p {
-    font-family: "Springbone Mono", "Pitch", monospace;
+    font-family: "Springbone Sans", "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
     font-size: 14px;
     margin-top: 0.25em;
-    margin-bottom: 0.25em; }
+    margin-bottom: 0.25em;
+    font-weight: 300; }
     @media screen and (max-width: 374px) {
       footer address, footer p {
         font-size: 12px;
