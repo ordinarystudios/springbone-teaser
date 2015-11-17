@@ -591,10 +591,11 @@ footer {
   justify-content: center;
 
   address, p {
-    font-family: $serif;
+    font-family: $sans;
     font-size: 14px;
     margin-top: 0.25em;
     margin-bottom: 0.25em;
+    font-weight: 300;
 
     @media screen and ( max-width: 374px ) {
       font-size: 12px;
