@@ -42,11 +42,12 @@ $blue: #477dca;
 $dark-gray: #333;
 $medium-gray: #999;
 $light-gray: #ddd;
+$white: #fff;
 
 // Font Colors
-$base-background-color: #C0DAD7;
-$base-font-color: $springbone-teal;
-$action-color: $springbone-teal;
+$base-background-color: $springbone-teal;
+$base-font-color: $white;
+$action-color: $white;
 
 // Border
 $base-border-color: $springbone-teal;
@@ -119,10 +120,10 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 button {
   @include appearance(none);
   -webkit-font-smoothing: antialiased;
-  background-color: $action-color;
+  background-color: #C2DCE0;
   border-radius: $base-border-radius;
   border: none;
-  color: #fff;
+  color: $springbone-teal;
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
@@ -137,8 +138,8 @@ button {
 
   &:hover,
   &:focus {
-    background-color: darken($action-color, 15%);
-    color: #fff;
+    background-color: darken(#C2DCE0, 15%);
+    color: darken($springbone-teal, 15%);
   }
 
   &:disabled {
@@ -318,10 +319,11 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
   background-color: $base-background-color;
-  background-image: url('../images/background-illustration.png');
+  background-image: url('../images/background-illustration.jpg');
   background-image: url('../images/background-illustration.svg');
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1,
