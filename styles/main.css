@@ -1182,10 +1182,10 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #094C55;
+  background-color: #C2DCE0;
   border-radius: 3px;
   border: none;
-  color: #fff;
+  color: #094C55;
   cursor: pointer;
   display: inline-block;
   font-family: "Springbone Sans", "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
@@ -1200,15 +1200,11 @@ button {
           user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
-  button:hover,
-  button:focus, input[type="button"]:hover,
-  input[type="button"]:focus, input[type="reset"]:hover,
-  input[type="reset"]:focus, input[type="submit"]:hover,
-  input[type="submit"]:focus,
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #020e10;
-    color: #fff; }
+    background-color: #8fbfc6;
+    color: #020e10; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
   button:disabled {
     cursor: not-allowed;
@@ -1249,7 +1245,7 @@ textarea {
   margin-bottom: 0.75em;
   padding: 0.5em;
   -webkit-transition: border-color;
-          transition: border-color;
+  transition: border-color;
   width: 100%; }
   input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
   select[multiple=multiple]:hover,
@@ -1258,9 +1254,9 @@ textarea {
   input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border: 1px solid #094C55;
+    border: 1px solid #fff;
     padding-left: 10px;
-    box-shadow: inset 0 1px 3px rgba(9, 76, 85, 0), 0 0 5px rgba(7, 55, 62, 0.7);
+    box-shadow: inset 0 1px 3px rgba(9, 76, 85, 0), 0 0 5px rgba(242, 242, 242, 0.7);
     outline: none;
     background: white; }
 
@@ -1340,15 +1336,16 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
-  color: #094C55;
+  color: #fff;
   font-family: "Springbone Sans", "BrownPro", "Brown", Brown Pro, Brown, Futura, Trebuchet MS, Arial, sans-serif;
   font-size: 13px;
   line-height: 1.5;
-  background-color: #C0DAD7;
-  background-image: url("../images/background-illustration.png");
+  background-color: #094C55;
+  background-image: url("../images/background-illustration.jpg");
   background-image: url("../images/background-illustration.svg");
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 h1,
 h2,
@@ -1387,16 +1384,13 @@ p {
   margin: 0 0 0.5em; }
 
 a {
-  color: #094C55;
+  color: #fff;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
-          transition: color 0.1s linear; }
-  a:active,
-  a:focus,
-  a:hover {
-    color: #020e10; }
-  a:active,
-  a:focus {
+  transition: color 0.1s linear; }
+  a:active, a:focus, a:hover {
+    color: #d9d9d9; }
+  a:active, a:focus {
     outline: none; }
 
 hr {
@@ -1529,7 +1523,7 @@ header {
         font-size: 16px; } }
   .email-capture input, .mc-field-group input {
     border-radius: 3px 0px 0px 3px;
-    border: solid 2px #094C55;
+    border: solid 2px #fff;
     border-right: 0px;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -1537,25 +1531,25 @@ header {
             flex: 1; }
     .email-capture input:hover, .email-capture input:focus, .mc-field-group input:hover, .mc-field-group input:focus {
       background: white;
-      border: solid 2px #07373e;
+      border: solid 2px #f2f2f2;
       border-right: 0px;
       box-shadow: none; }
   .email-capture button, .email-capture .button, .mc-field-group button, .mc-field-group .button {
     width: 5em;
     border-radius: 0px 3px 3px 0px;
     -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease; }
+    transition: all 0.3s ease; }
     .email-capture button:hover, .email-capture button:focus, .email-capture button:active, .email-capture .button:hover, .email-capture .button:focus, .email-capture .button:active, .mc-field-group button:hover, .mc-field-group button:focus, .mc-field-group button:active, .mc-field-group .button:hover, .mc-field-group .button:focus, .mc-field-group .button:active {
-      background: #07373e;
+      background: #f2f2f2;
       -webkit-transition: all 0.3s ease;
-              transition: all 0.3s ease;
+      transition: all 0.3s ease;
       border: none;
       outline: none;
       box-shadow: none; }
     .email-capture button:active, .email-capture .button:active, .mc-field-group button:active, .mc-field-group .button:active {
-      background: #020e10;
+      background: #d9d9d9;
       -webkit-transition: all 0.3s ease;
-              transition: all 0.3s ease; }
+      transition: all 0.3s ease; }
 
 section {
   -webkit-box-flex: 1;
@@ -1580,8 +1574,8 @@ p.lead {
   font-weight: bold;
   font-size: 48px;
   line-height: 1.2;
-  -webkit-transition: font-size 0.5s ease;
-          transition: font-size 0.5s ease; }
+  -webkit-transition: font-size .5s ease;
+  transition: font-size .5s ease; }
   @media screen and (max-width: 800px) {
     p.lead {
       font-size: 40px;
@@ -1637,13 +1631,13 @@ footer {
     border-radius: 3px;
     line-height: 1px;
     -webkit-transition: all 0.3s ease;
-            transition: all 0.3s ease; }
+    transition: all 0.3s ease; }
     @media screen and (min-width: 441px) {
       footer a {
         padding: 5px 10px; }
         footer a:hover {
-          background: #b0d1cd;
+          background: #07373e;
           background: rgba(9, 76, 85, 0.15);
           -webkit-transition: all 0.3s ease;
-                  transition: all 0.3s ease; } }
+          transition: all 0.3s ease; } }
 /*# sourceMappingURL=main.css.map */
